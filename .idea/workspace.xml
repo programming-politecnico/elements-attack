@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="15826363-5a55-489a-8683-16f081e24df0" name="Changes" comment="feat: junit test sample">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/poli/elementsattack/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/poli/elementsattack/hello-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,8 +47,11 @@
     "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "C:/Users/lpatr/Documents/src/elements-attack-javafx",
+    "last_opened_file_path": "C:/Users/lpatr/src/elements-attack",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "reference.settings.project.maven.importing"
   }
 }]]></component>
@@ -74,7 +78,7 @@
       </method>
     </configuration>
     <configuration name="HelloControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="elements-attack-javafx" />
+      <module name="elements-attack" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.poli.elementsattack.*" />
@@ -104,7 +108,8 @@
       <option name="presentableId" value="Default" />
       <updated>1668578619065</updated>
       <workItem from="1668578620220" duration="295000" />
-      <workItem from="1668633462904" duration="1367000" />
+      <workItem from="1668633462904" duration="1638000" />
+      <workItem from="1668635466057" duration="644000" />
     </task>
     <task id="LOCAL-00001" summary="feat: jdk 19">
       <created>1668633544287</created>
