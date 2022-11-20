@@ -12,7 +12,7 @@
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
     </padding>
 
-    <Text text="Elements Attack" />
+    <Text text="Elements Attack" style="-fx-font-size: 24px;-fx-font-weight: bold" fill="orangered"/>
 
     <Label fx:id="welcomeText"/>
     <Button text="Hello!" onAction="#onHelloButtonClick"/>
