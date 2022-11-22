@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15826363-5a55-489a-8683-16f081e24df0" name="Changes" comment="feat: change background color">
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+    <list default="true" id="15826363-5a55-489a-8683-16f081e24df0" name="Changes" comment="feat: load new scene on click">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/poli/elementsattack/GameController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/poli/elementsattack/game.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/poli/elementsattack/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/poli/elementsattack/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/poli/elementsattack/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/poli/elementsattack/hello-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/poli/elementsattack/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/poli/elementsattack/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/poli/elementsattack/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/poli/elementsattack/MenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/poli/elementsattack/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/poli/elementsattack/menu.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/poli/elementsattack/HelloControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/poli/elementsattack/MenuControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +24,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
+        <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -80,19 +87,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "C:/Users/lpatr/Documents/src/elements-attack-javafx",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.editor"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/lpatr/Documents/src/elements-attack-javafx&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -102,12 +109,12 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.HelloApplication">
-    <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.poli.elementsattack.HelloApplication" />
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.poli.elementsattack.Application" />
       <module name="elements-attack" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.poli.elementsattack.*" />
+          <option name="PATTERN" value="com.poli.elementsattack.MenuController" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,16 +122,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="elements-attack-javafx" />
+    <configuration name="MenuControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="elements-attack" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.poli.elementsattack.*" />
+          <option name="PATTERN" value="com.poli.elementsattack.MenuController" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.poli.elementsattack" />
-      <option name="MAIN_CLASS_NAME" value="com.poli.elementsattack.HelloControllerTest" />
+      <option name="MAIN_CLASS_NAME" value="com.poli.elementsattack.MenuControllerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -133,10 +140,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.HelloApplication" />
-        <item itemvalue="JUnit.HelloControllerTest" />
-        <item itemvalue="JUnit.HelloControllerTest" />
+        <item itemvalue="JUnit.MenuControllerTest" />
+        <item itemvalue="JUnit.MenuControllerTest" />
         <item itemvalue="Application.HelloApplication" />
-        <item itemvalue="JUnit.HelloControllerTest" />
+        <item itemvalue="JUnit.MenuControllerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -199,6 +206,7 @@
     <MESSAGE value="feat: jdk 19" />
     <MESSAGE value="feat: junit test sample" />
     <MESSAGE value="feat: change background color" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: change background color" />
+    <MESSAGE value="feat: load new scene on click" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: load new scene on click" />
   </component>
 </project>
