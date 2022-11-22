@@ -13,4 +13,6 @@
 
     <Label fx:id="welcomeText"/>
     <Button text="Hello!" onAction="#onHelloButtonClick"/>
+
+    <text text="Elements Attack" Style="-fx-font-style: italic: 25px;-fx-font-size: 15pt: bold" Color c = new Color(0,0,1,1.0); > 
 </VBox>
