@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15826363-5a55-489a-8683-16f081e24df0" name="Changes" comment="feat: global player singleton class">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/poli/elementsattack/Player.java" afterDir="false" />
+    <list default="true" id="15826363-5a55-489a-8683-16f081e24df0" name="Changes" comment="feat: game logic">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/poli/elementsattack/RoundController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/poli/elementsattack/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/poli/elementsattack/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/poli/elementsattack/GameController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/poli/elementsattack/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/poli/elementsattack/MenuController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/poli/elementsattack/game.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/poli/elementsattack/game.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/poli/elementsattack/SelectDragonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/poli/elementsattack/SelectDragonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/poli/elementsattack/game.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/poli/elementsattack/round.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,7 +195,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669158892624</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="feat: global player singleton class">
+      <created>1669159105634</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1669159105634</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat: game logic">
+      <created>1669159131671</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1669159131671</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,6 +248,7 @@
     <MESSAGE value="feat: dragon selector" />
     <MESSAGE value="feat: scene loader utility" />
     <MESSAGE value="feat: global player singleton class" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: global player singleton class" />
+    <MESSAGE value="feat: game logic" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: game logic" />
   </component>
 </project>

@@ -28,7 +28,7 @@ public class SelectDragonController {
 
     private void loadGameScene() {
         try {
-            SceneChanger.loadScene("game.fxml");
+            SceneChanger.loadScene("round.fxml");
         } catch (IOException e) {
             e.printStackTrace();
         }
