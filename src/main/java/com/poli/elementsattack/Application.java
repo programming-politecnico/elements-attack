@@ -8,6 +8,7 @@ import java.io.IOException;
 
 public class Application extends javafx.application.Application {
     public static Stage stage;
+
     @Override
     public void start(Stage st) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(Application.class.getResource("menu.fxml"));

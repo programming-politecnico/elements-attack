@@ -5,4 +5,6 @@ module com.poli.elementsattack {
 
     opens com.poli.elementsattack to javafx.fxml;
     exports com.poli.elementsattack;
+    exports com.poli.elementsattack.models;
+    opens com.poli.elementsattack.models to javafx.fxml;
 }
