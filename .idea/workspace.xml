@@ -4,16 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15826363-5a55-489a-8683-16f081e24df0" name="Changes" comment="feat: load new scene on click">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/poli/elementsattack/GameController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/poli/elementsattack/game.fxml" afterDir="false" />
+    <list default="true" id="15826363-5a55-489a-8683-16f081e24df0" name="Changes" comment="feat: global player singleton class">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/poli/elementsattack/Player.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/poli/elementsattack/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/poli/elementsattack/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/poli/elementsattack/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/poli/elementsattack/MenuController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/poli/elementsattack/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/poli/elementsattack/menu.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/poli/elementsattack/HelloControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/poli/elementsattack/MenuControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/poli/elementsattack/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/poli/elementsattack/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/poli/elementsattack/GameController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/poli/elementsattack/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/poli/elementsattack/MenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/poli/elementsattack/game.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/poli/elementsattack/game.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,8 +45,8 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="feat/background-color" />
-                    <option name="lastUsedInstant" value="1669153595" />
+                    <option name="branchName" value="feat/dragon-logic" />
+                    <option name="lastUsedInstant" value="1669158838" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="main" />
@@ -108,13 +106,13 @@
       <recent name="com.poli.elementsattack" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HelloApplication">
+  <component name="RunManager" selected="Application.Application">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.poli.elementsattack.Application" />
       <module name="elements-attack" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.poli.elementsattack.MenuController" />
+          <option name="PATTERN" value="com.poli.elementsattack.controllers.MenuController" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,7 +124,7 @@
       <module name="elements-attack" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.poli.elementsattack.MenuController" />
+          <option name="PATTERN" value="com.poli.elementsattack.controllers.MenuController" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,10 +137,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HelloApplication" />
+        <item itemvalue="Application.Application" />
         <item itemvalue="JUnit.MenuControllerTest" />
         <item itemvalue="JUnit.MenuControllerTest" />
-        <item itemvalue="Application.HelloApplication" />
         <item itemvalue="JUnit.MenuControllerTest" />
       </list>
     </recent_temporary>
@@ -173,7 +170,35 @@
       <option name="project" value="LOCAL" />
       <updated>1668633749700</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat: dragon class">
+      <created>1669158847162</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669158847162</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: dragon map">
+      <created>1669158864345</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669158864345</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: dragon selector">
+      <created>1669158881834</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1669158881834</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat: scene loader utility">
+      <created>1669158892624</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1669158892624</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,6 +232,11 @@
     <MESSAGE value="feat: junit test sample" />
     <MESSAGE value="feat: change background color" />
     <MESSAGE value="feat: load new scene on click" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: load new scene on click" />
+    <MESSAGE value="feat: dragon class" />
+    <MESSAGE value="feat: dragon map" />
+    <MESSAGE value="feat: dragon selector" />
+    <MESSAGE value="feat: scene loader utility" />
+    <MESSAGE value="feat: global player singleton class" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: global player singleton class" />
   </component>
 </project>
