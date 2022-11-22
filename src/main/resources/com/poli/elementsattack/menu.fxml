@@ -5,8 +5,7 @@
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.text.Text?>
 <VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
-      fx:controller="com.poli.elementsattack.HelloController"
-      style="-fx-background-color: #272727">
+      fx:controller="com.poli.elementsattack.MenuController" style="-fx-background-color: #272727">
     <Text style="-fx-font-size: 24px;-fx-font-weight: bold" fill="orangered" text="Elements Attack"/>
 
     <Button text="Jugar!" onAction="#startGameHandler"
