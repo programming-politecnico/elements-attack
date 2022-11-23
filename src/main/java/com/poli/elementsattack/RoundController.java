@@ -12,14 +12,31 @@ public class RoundController {
     public Text computerScore;
     public Text roundResult;
 
+    /**
+     * Retorna verdadero si el jugador gana.
+     *
+     * @param playerDragon   el dragón elegido por el jugador.
+     * @param computerDragon el dragón elegido por la computadora.
+     * @return true si el jugador gana, y false en caso contrario.
+     */
     public boolean isPlayerWinner(Dragon playerDragon, Dragon computerDragon) {
         return DRAGON_MAP.getMap().get(playerDragon).contains(computerDragon);
     }
 
+    /**
+     * Retorna verdadero si hay un empate.
+     *
+     * @param playerDragon   el dragón elegido por el jugador.
+     * @param computerDragon el dragón elegido por la computadora.
+     * @return true si hay un empate, y false en caso contrario.
+     */
     public boolean isDraw(Dragon playerDragon, Dragon computerDragon) {
         return playerDragon.equals(computerDragon);
     }
 
+    /**
+     * Inicializa la escena.
+     */
     @FXML
     private void initialize() {
         playerChoice.setText("Tu: " + Player.getInstance().getSelectedDragon().name());
@@ -42,6 +59,9 @@ public class RoundController {
         }
     }
 
+    /**
+     * Cambia la escena a la siguiente ronda.
+     */
     public void nextRound() {
         SceneChanger.loadScene("menu.fxml");
     }

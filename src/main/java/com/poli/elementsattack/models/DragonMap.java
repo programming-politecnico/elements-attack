@@ -5,6 +5,9 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * Crea un mapa de dragones.
+ */
 public class DragonMap {
 
     private final Map<Dragon, List<Dragon>> map;
@@ -25,6 +28,11 @@ public class DragonMap {
         map.put(wind, Arrays.asList(fire, ice));
     }
 
+    /**
+     * Obtiene el mapa de dragones.
+     *
+     * @return el mapa de dragones.
+     */
     public Map<Dragon, List<Dragon>> getMap() {
         return map;
     }
