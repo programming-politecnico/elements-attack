@@ -6,7 +6,7 @@ import com.poli.elementsattack.utils.SceneChanger;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 
-import java.io.IOException;
+import java.util.Random;
 
 public class SelectDragonController {
 
@@ -27,37 +27,42 @@ public class SelectDragonController {
     }
 
     private void loadGameScene() {
-        try {
-            SceneChanger.loadScene("round.fxml");
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        SceneChanger.loadScene("round.fxml");
+    }
+
+    public Dragon randomizeComputersDragon() {
+        Random random = new Random();
+        int randomKey = random.nextInt(dragonMap.getMap().keySet().size());
+        Computer.getInstance().setDragon((Dragon) dragonMap.getMap().keySet().toArray()[randomKey]);
+        return Computer.getInstance().getDragon();
     }
 
     @FXML
     public void initialize() {
+        randomizeComputersDragon();
+
         fireButton.setOnMouseClicked(event -> {
-            player.setSelectedDragon(dragonMap.getMap().get(new Dragon("Fire")).get(0));
+            player.setSelectedDragon(new Dragon("Fire"));
             loadGameScene();
         });
 
         iceButton.setOnMouseClicked(event -> {
-            player.setSelectedDragon(dragonMap.getMap().get(new Dragon("Ice")).get(0));
+            player.setSelectedDragon(new Dragon("Ice"));
             loadGameScene();
         });
 
         waterButton.setOnMouseClicked(event -> {
-            player.setSelectedDragon(dragonMap.getMap().get(new Dragon("Water")).get(0));
+            player.setSelectedDragon(new Dragon("Water"));
             loadGameScene();
         });
 
         earthButton.setOnMouseClicked(event -> {
-            player.setSelectedDragon(dragonMap.getMap().get(new Dragon("Earth")).get(0));
+            player.setSelectedDragon(new Dragon("Earth"));
             loadGameScene();
         });
 
         windButton.setOnMouseClicked(event -> {
-            player.setSelectedDragon(dragonMap.getMap().get(new Dragon("Wind")).get(0));
+            player.setSelectedDragon(new Dragon("Wind"));
             loadGameScene();
         });
     }
