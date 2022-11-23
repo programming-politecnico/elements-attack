@@ -4,6 +4,7 @@
 
 <?import javafx.scene.text.Text?>
 <?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
 <VBox xmlns="http://javafx.com/javafx"
       prefHeight="400.0" prefWidth="600.0"
       style="-fx-background-color: #272727" alignment="CENTER"
@@ -13,5 +14,14 @@
         <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
     </padding>
 
-    <Text text="Game" fill="white" style="-fx-font-size: 16px;-fx-font-weight: bold"/>
+    <VBox spacing="5" alignment="CENTER">
+        <Text fill="#ffffff" strokeType="OUTSIDE" strokeWidth="0.0" text="Tu:" fx:id="playerChoice" style="-fx-font-size: 18px"/>
+        <Text fill="#ffffff" strokeType="OUTSIDE" strokeWidth="0.0" text="Computador:" fx:id="computerScore" style="-fx-font-size: 18px"/>
+    </VBox>
+
+    <Text fill="#ffffff" strokeType="OUTSIDE" strokeWidth="0.0" text="DRAW" fx:id="roundResult" style="-fx-font-size: 18px"/>
+
+    <HBox alignment="CENTER">
+        <Button fx:id="nextRound" text="Siguiente" onAction="#nextRound" style="-fx-background-color: #ffffff; -fx-cursor: hand"/>
+    </HBox>
 </VBox>
