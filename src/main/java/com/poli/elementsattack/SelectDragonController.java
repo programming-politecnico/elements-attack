@@ -30,6 +30,11 @@ public class SelectDragonController {
         SceneChanger.loadScene("round.fxml");
     }
 
+    /**
+     * Selecciona un dragón al azar para el computador.
+     *
+     * @return el dragón seleccionado.
+     */
     public Dragon randomizeComputersDragon() {
         Random random = new Random();
         int randomKey = random.nextInt(dragonMap.getMap().keySet().size());
@@ -37,6 +42,10 @@ public class SelectDragonController {
         return Computer.getInstance().getDragon();
     }
 
+    /**
+     * Carga la escena del juego y añade los event listeners a los botones.
+     * Selecciona el dragón del jugador y el dragón del computador.
+     */
     @FXML
     public void initialize() {
         randomizeComputersDragon();
