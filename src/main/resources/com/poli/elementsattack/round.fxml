@@ -15,7 +15,7 @@
     </padding>
 
     <VBox spacing="5" alignment="CENTER">
-        <Text fill="#ffffff" strokeType="OUTSIDE" strokeWidth="0.0" text="Tu:" fx:id="playerChoice" style="-fx-font-size: 18px"/>
+        <Text fill="#ffffff" strokeType="OUTSIDE" strokeWidth="0.0" text="Tu:" fx:id="playerChoice" style="-fx-font-size: 18px" image = "Button"/>
         <Text fill="#ffffff" strokeType="OUTSIDE" strokeWidth="0.0" text="Computador:" fx:id="computerScore" style="-fx-font-size: 18px"/>
     </VBox>
 

@@ -15,11 +15,11 @@ public class DragonMap {
     public DragonMap() {
         map = new HashMap<>();
 
-        Dragon fire = new Dragon("Fire");
-        Dragon ice = new Dragon("Ice");
-        Dragon water = new Dragon("Water");
-        Dragon earth = new Dragon("Earth");
-        Dragon wind = new Dragon("Wind");
+        Dragon fire = new Dragon("Fuego");
+        Dragon ice = new Dragon("Hielo");
+        Dragon water = new Dragon("Agua");
+        Dragon earth = new Dragon("Tierra");
+        Dragon wind = new Dragon("Viento");
 
         map.put(fire, Arrays.asList(ice, water));
         map.put(ice, Arrays.asList(water, earth));

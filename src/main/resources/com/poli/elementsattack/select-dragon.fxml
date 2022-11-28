@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.layout.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.text.Text?>
@@ -12,12 +19,54 @@
         <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
     </padding>
 
-    <Text text="Elige un Dragon" fill="white" style="-fx-font-size: 16px;-fx-font-weight: bold"/>
-    <HBox alignment="CENTER" layoutX="10.0" layoutY="10.0" spacing="10.0">
-        <Button fx:id="fireButton" text="Fuego"/>
-        <Button fx:id="iceButton" text="Hielo"/>
-        <Button fx:id="waterButton" text="Agua"/>
-        <Button fx:id="earthButton" text="Tierra"/>
-        <Button fx:id="windButton" text="Viento"/>
+    <Text text="Elige un Dragon" fill="white" style="-fx-font-size: 20px;-fx-font-weight: bold"/>
+    <HBox alignment="CENTER" layoutX="05.0" layoutY="05.0" spacing="05.0">
+        <Button fx:id="fireButton" text="Fuego" style = "-fx-alignment: BOTTOM_LEFT" contentDisplay="TOP" >
+         <graphic>
+              <ImageView fitHeight="200.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+              <image>       
+                <Image url="https://i.pinimg.com/750x/d3/d3/ff/d3d3ff1d5901fd2f21181b6745d33610.jpg" preserveRatio="false" smooth="false" />       
+              </image>
+              </ImageView>
+          </graphic>
+        </Button>
+        <Button fx:id="iceButton" text="Hielo" style = "-fx-alignment: BOTTOM_LEFT" contentDisplay="TOP" >
+            <graphic>
+              <ImageView fitHeight="200.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+              <image>       
+                <Image url="https://i.pinimg.com/564x/49/a1/b8/49a1b8688a30e90c346f60f8f8788018.jpg" preserveRatio="false" smooth="false" />          
+              </image>
+              </ImageView>
+           </graphic>
+        </Button>
+        <Button fx:id="waterButton" text="Agua" style = "-fx-alignment: BOTTOM_LEFT" contentDisplay="TOP" >
+         <graphic>
+              <ImageView fitHeight="200.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+              <image>       
+                <Image url="https://i.pinimg.com/564x/ec/49/c2/ec49c28aa9e007ff18e417f105918598.jpg" preserveRatio="false" smooth="false" />          
+              </image>
+              </ImageView>
+           </graphic>
+        </Button>
+        <Button fx:id="earthButton" text="Tierra" style = "-fx-alignment: BOTTOM_LEFT" contentDisplay="TOP" >
+         <graphic>
+              <ImageView fitHeight="200.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+              <image>       
+                <Image url="https://i.pinimg.com/564x/11/2c/76/112c76a7b41980321b74975726b27461.jpg" preserveRatio="false" smooth="false"/>          
+              </image>
+              </ImageView>
+           </graphic>
+        </Button>
+        <Button fx:id="windButton" text="Viento" style = "-fx-alignment: BOTTOM_LEFT" contentDisplay="TOP" >
+         <graphic>
+              <ImageView fitHeight="200.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+              <image>       
+                <Image url="https://i.pinimg.com/564x/f0/b9/76/f0b9763c53866e853d3b56ee1501a9d9.jpg" preserveRatio="false" smooth="false" />          
+              </image>
+              </ImageView>
+           </graphic>
+        </Button>
+
     </HBox>
 </VBox>
+
