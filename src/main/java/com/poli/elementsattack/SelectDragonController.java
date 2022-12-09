@@ -51,27 +51,27 @@ public class SelectDragonController {
         randomizeComputersDragon();
 
         fireButton.setOnMouseClicked(event -> {
-            player.setSelectedDragon(new Dragon("Fire"));
+            player.setSelectedDragon(new Dragon("Fuego"));
             loadGameScene();
         });
 
         iceButton.setOnMouseClicked(event -> {
-            player.setSelectedDragon(new Dragon("Ice"));
+            player.setSelectedDragon(new Dragon("Hielo"));
             loadGameScene();
         });
 
         waterButton.setOnMouseClicked(event -> {
-            player.setSelectedDragon(new Dragon("Water"));
+            player.setSelectedDragon(new Dragon("Agua"));
             loadGameScene();
         });
 
         earthButton.setOnMouseClicked(event -> {
-            player.setSelectedDragon(new Dragon("Earth"));
+            player.setSelectedDragon(new Dragon("Tierra"));
             loadGameScene();
         });
 
         windButton.setOnMouseClicked(event -> {
-            player.setSelectedDragon(new Dragon("Wind"));
+            player.setSelectedDragon(new Dragon("Viento"));
             loadGameScene();
         });
     }

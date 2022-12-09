@@ -8,8 +8,8 @@ import static org.junit.jupiter.api.Assertions.*;
 class RoundControllerTest {
     @Test
     void playerWins() {
-        Dragon selectedDragon = new Dragon("Water");
-        Dragon computerDragon = new Dragon("Earth");
+        Dragon selectedDragon = new Dragon("Agua");
+        Dragon computerDragon = new Dragon("Tierra");
 
         RoundController roundController = new RoundController();
         assertTrue(roundController.isPlayerWinner(selectedDragon, computerDragon));
@@ -17,8 +17,8 @@ class RoundControllerTest {
 
     @Test
     void playerLoses() {
-        Dragon selectedDragon = new Dragon("Water");
-        Dragon computerDragon = new Dragon("Fire");
+        Dragon selectedDragon = new Dragon("Agua");
+        Dragon computerDragon = new Dragon("Fuego");
 
         RoundController roundController = new RoundController();
         assertFalse(roundController.isPlayerWinner(selectedDragon, computerDragon));
@@ -26,8 +26,8 @@ class RoundControllerTest {
 
     @Test
     void isDraw() {
-        Dragon selectedDragon = new Dragon("Water");
-        Dragon computerDragon = new Dragon("Water");
+        Dragon selectedDragon = new Dragon("Agua");
+        Dragon computerDragon = new Dragon("Agua");
 
         RoundController roundController = new RoundController();
         assertTrue(roundController.isDraw(selectedDragon, computerDragon));
